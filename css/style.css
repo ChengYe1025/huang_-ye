@@ -5,7 +5,12 @@ h1{
     border: 5px solid;
     background-color: antiquewhite;
     color: grey;
-    font-size: 300;
+    border-radius: 40%;
+    box-shadow: 10px 10px 10px rgb(0 0 0 / 60%)
+    font-size: 200%;
+    text-align: center;
+    line-height: 1;
+    font-family: Audiowide;
 }
 
 a{
@@ -13,5 +18,38 @@ a{
 }
 
 body{
-    style="background-color: aliceblue; ""
+    background-color: burlywood;
+}
+
+h2{
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #d033;
+    border-left: 10px dotted #94c8b1;
+    color: grey;
+    font-size: 300;
+}
+#contents{
+    margin: 40px;
+    padding: 40px 80px;
+    border: 1px solid #1287b6;
+    background-color: bisque;
+}
+.more{
+    text-align: right;
+}
+.photo{
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%)
+}
+.h{
+    border: 1px dotted black;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-left: 10px solid burlywood;
+    color: #94c8b1;
+}
+.h-sub span{
+    font-weight: normal;
+
 }
